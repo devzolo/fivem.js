@@ -1,0 +1,1 @@
+{"version":3,"file":"PedBoneCollection.d.ts","sourceRoot":"","sources":["../../src/models/PedBoneCollection.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,oBAAoB,EAAE,GAAG,EAAE,OAAO,EAAE,MAAM,IAAI,CAAC;AAExD,qBAAa,iBAAkB,SAAQ,oBAAoB;gBAC7C,KAAK,EAAE,GAAG;IAItB,IAAW,IAAI,IAAI,OAAO,CAEzB;IAED,IAAW,WAAW,IAAI,OAAO,GAAG,SAAS,CAQ5C;IAEM,gBAAgB,IAAI,IAAI;CAGhC"}

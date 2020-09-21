@@ -1,0 +1,1 @@
+{"version":3,"file":"EntityBoneCollection.d.ts","sourceRoot":"","sources":["../../src/models/EntityBoneCollection.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,UAAU,EAAE,MAAM,IAAI,CAAC;AAExC,qBAAa,oBAAoB;IAC/B,SAAS,CAAC,QAAQ,CAAC,KAAK,EAAE,MAAM,CAAC;gBAKrB,KAAK,EAAE,MAAM;IAIlB,OAAO,CAAC,IAAI,EAAE,MAAM,GAAG,OAAO;IAIrC,IAAW,IAAI,IAAI,UAAU,CAE5B;CACF"}

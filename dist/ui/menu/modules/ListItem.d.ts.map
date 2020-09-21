@@ -1,0 +1,1 @@
+{"version":3,"file":"ListItem.d.ts","sourceRoot":"","sources":["../../../../src/ui/menu/modules/ListItem.ts"],"names":[],"mappings":"AAEA,qBAAa,QAAQ;IACnB,SAAgB,EAAE,EAAE,MAAM,CAAY;IAE/B,WAAW,EAAE,MAAM,CAAC;IACpB,IAAI,EAAE,OAAO,CAAC;gBAET,IAAI,SAAK,EAAE,IAAI,GAAE,OAAc;CAI5C"}

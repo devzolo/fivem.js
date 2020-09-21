@@ -1,0 +1,15 @@
+import { Vehicle } from './Vehicle';
+import { VehicleToggleModType } from '../enums';
+export declare class VehicleToggleMod {
+    private owner;
+    private modType;
+    constructor(owner: Vehicle, modType: VehicleToggleModType);
+    get ModType(): VehicleToggleModType;
+    set ModType(modType: VehicleToggleModType);
+    get IsInstalled(): boolean;
+    set IsInstalled(value: boolean);
+    get LocalizedModTypeName(): string;
+    get Vehicle(): Vehicle;
+    remove(): void;
+}
+//# sourceMappingURL=VehicleToggleMod.d.ts.map

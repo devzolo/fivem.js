@@ -1,0 +1,1 @@
+{"version":3,"file":"ItemsCollection.d.ts","sourceRoot":"","sources":["../../../../src/ui/menu/modules/ItemsCollection.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,YAAY,CAAC;AAEtC,qBAAa,eAAe;IAC1B,OAAO,CAAC,KAAK,CAAwB;gBAEzB,KAAK,EAAE,QAAQ,EAAE,GAAG,MAAM,EAAE;IAOjC,MAAM,IAAI,MAAM;IAIhB,YAAY,IAAI,CAAC,QAAQ,GAAG,MAAM,CAAC,EAAE;CAW7C"}

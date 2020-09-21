@@ -7,9 +7,7 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
-    "start": "ts-node src/index.ts",
     "test": "jest --unhandled-rejections=strict",
-    "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
     "format": "prettier --write \"src/**/*.ts\""
   },
   "dependencies": {
