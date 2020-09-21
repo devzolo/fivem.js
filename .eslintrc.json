@@ -1,0 +1,48 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "airbnb-base",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "camelcase": "off",
+    "no-await-in-loop": "off",
+    "no-underscore-dangle": ["error", { "allowAfterThis": true }],
+    "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+    "import/extensions": ["error", "ignorePackages", { "ts": "never"}],
+    "@typescript-eslint/no-empty-function": "off",
+    "no-useless-constructor": "off",
+    "no-param-reassign": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "import/prefer-default-export": "off",
+    "@typescript-eslint/camelcase": "off",
+    "class-methods-use-this": "off",
+    "no-restricted-syntax": "off",
+    "no-nested-ternary": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "fivem.js",
+  "version": "1.0.0",
+  "main": "dist",
+  "author": "Raphael Zolotorevsky da Motta",
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "test": "jest --unhandled-rejections=strict",
+    "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "dependencies": {
+    "@citizenfx/client": "^1.0.2956-1",
+    "@citizenfx/server": "^1.0.2956-1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "@types/node": "^14.0.13",
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.19.0",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "source-map-support": "^0.5.19",
+    "ts-jest": "^26.1.0",
+    "ts-node-dev": "^1.0.0-pre.50",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.9.5"
+  }
+}
