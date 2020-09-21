@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "@citizenfx/client": "^1.0.2956-1",
-    "@citizenfx/server": "^1.0.2956-1"
+    "@citizenfx/server": "^1.0.2956-1",
+    "@types/node": "^14.0.13"
   },
   "devDependencies": {
     "@types/jest": "^26.0.14",
